@@ -13,5 +13,7 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
 
         TextView textView = new TextView(this);
+
+        textView.setText("nihao");
     }
 }
